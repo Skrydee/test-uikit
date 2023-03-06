@@ -119,7 +119,7 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
       {
-        label: "English",
+        label: "TEST",
         href: "https://t.me/goosedefi",
       },
       // {
@@ -180,7 +180,7 @@ export const socials = [
   {
     label: "Reddit",
     icon: "RedditIcon",
-    href: "https://www.reddit.com/r/GooseFinanceofficial",
+    href: "https://www.google.com",
   },
 ];
 
