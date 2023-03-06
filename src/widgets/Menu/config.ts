@@ -10,77 +10,104 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.marsswap.finance/swap",
+        href: "https://exchange.pancakeswap.finance",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.marsswap.finance/pool",
+        href: "https://exchange.pancakeswap.finance/#/pool",
       },
     ],
   },
   {
-    label: "Classic Farms",
+    label: "Farms",
     icon: "FarmIcon",
     href: "/farms",
   },
   {
-    label: "Stock Farms",
-    icon: "StocksIcon",
-    href: "/stocks",
+    label: "Pools",
+    icon: "PoolIcon",
+    href: "/syrup",
   },
   {
-    label: "Referrals",
+    label: "Lottery",
+    icon: "TicketIcon",
+    href: "/lottery",
+  },
+  {
+    label: "NFT",
+    icon: "NftIcon",
+    href: "/nft",
+  },
+  {
+    label: "Profile & Teams",
     icon: "GroupsIcon",
-    href: "/referrals",
-  },
-  {
-    label: "Roadmap",
-    icon: "RoadmapIcon",
-    href: "https://docs.marsswap.finance/roadmap",
-  },
-  {
-    label: "Audits",
-    icon: "AuditIcon",
     items: [
       {
-        label: "RD Auditors",
-        href: "https://marsswap.finance/audits/rdauditors.pdf",
+        label: "Leaderboard",
+        href: "/",
       },
       {
-        label: "Techrate",
-        href: "https://marsswap.finance/audits/techrate.pdf",
+        label: "YourProfile",
+        href: "/",
+      },
+    ],
+    calloutClass: "rainbow",
+  },
+  {
+    label: "Info",
+    icon: "InfoIcon",
+    items: [
+      {
+        label: "Overview",
+        href: "https://pancakeswap.info",
+      },
+      {
+        label: "Tokens",
+        href: "https://pancakeswap.info/tokens",
+      },
+      {
+        label: "Pairs",
+        href: "https://pancakeswap.info/pairs",
+      },
+      {
+        label: "Accounts",
+        href: "https://pancakeswap.info/accounts",
       },
     ],
   },
-  // {
-  //   label: 'Info',
-  //   icon: 'InfoIcon',
-  //   items: [
-  //     {
-  //       label: 'PancakeSwap',
-  //       href: `https://pancakeswap.info/token/${frontendConfig.token['56']}`,
-  //     },
-  //   ],
-  // },
+  {
+    label: "IFO",
+    icon: "IfoIcon",
+    items: [
+      {
+        label: "Next",
+        href: "/ifo",
+      },
+      {
+        label: "History",
+        href: "/ifo/history",
+      },
+    ],
+  },
   {
     label: "More",
     icon: "MoreIcon",
     items: [
+      // {
+      //   label: "Voting",
+      //   href: "https://voting.pancakeswap.finance",
+      // },
       {
         label: "Github",
-        href: "https://github.com/MarsSwapFinance",
+        href: "https://github.com/goosedefi/",
       },
       {
         label: "Docs",
-        href: "https://docs.marsswap.finance/",
+        href: "https://goosedefi.gitbook.io/goose-finance/",
       },
       {
         label: "Blog",
-        href: "https://medium.com/marsswap",
-      },
-      {
-        label: "Whitepaper",
-        href: "https://marsswap.finance/whitepaper.pdf",
+        href: "https://goosefinance.medium.com/",
       },
     ],
   },
@@ -93,23 +120,67 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/MarsSwap",
+        href: "https://t.me/goosedefi",
       },
+      // {
+      //   label: "Bahasa Indonesia",
+      //   href: "https://t.me/PancakeSwapIndonesia",
+      // },
+      //{
+      //  label: "中文",
+      //  href: "https://t.me/goosefinancechinese",
+      //},
+      // {
+      //   label: "Tiếng Việt",
+      //   href: "https://t.me/PancakeSwapVN",
+      // },
+      //{
+      // label: "Italiano",
+      // href: "https://t.me/goosefinanceitalian",
+      //},
+      //{
+        //label: "русский",
+        //href: "https://t.me/goosefinancerussian",
+      //},
       {
-        label: "Announcements",
-        href: "https://t.me/MarsSwap_News",
+        label: "Türkiye",
+        href: "https://t.me/GooseFinanceTurkey",
+      },
+      // {
+      //   label: "Português",
+      //   href: "https://t.me/PancakeSwapPortuguese",
+      // },
+      //{
+        //label: "Español",
+        //href: "https://t.me/goosefinancespanish",
+      //},
+      //{
+        //label: "日本語",
+        //href: "https://t.me/goosefinancejapanese",
+      //},
+      //{
+        //label: "Français",
+        //href: "https://t.me/goosefinancefrench",
+      //},
+      //{
+        //label: "Announcements",
+        //href: "https://t.me/goosefinanceann",
+      //},
+      {
+        label: "Price Bot",
+        href: "https://t.me/BinanceRocketEGG",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/marsswap",
+    href: "https://twitter.com/goosedefi",
   },
   {
     label: "Reddit",
     icon: "RedditIcon",
-    href: "https://www.reddit.com/r/MarsSwap",
+    href: "https://www.reddit.com/r/GooseFinanceofficial",
   },
 ];
 
